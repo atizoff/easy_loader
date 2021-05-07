@@ -12,4 +12,4 @@
 #pragma comment(lib, "Wininet.lib")
 
 #define DLL_PATH "C:\\Warface\\Bin64Release\\cheat.dll"
-#define DLL_LINK "https://גארסאיע/הככ.dll"
+#define DLL_LINK "https://yoursite.com/software.dll"
