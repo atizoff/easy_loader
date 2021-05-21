@@ -1,6 +1,6 @@
 ﻿#include "loaderFree.hpp"
 
-void downloadFile(const char* dllLink, const char* dllPath)
+void downloadFile(const char *dllLink, const char *dllPath)
 {
 	URLDownloadToFileA(0, dllLink, dllPath, 0, 0);
 	DeleteUrlCacheEntryA(dllLink);
