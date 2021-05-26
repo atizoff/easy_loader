@@ -54,6 +54,8 @@ bool injectDll(const char *dllPath) // by ICoded
 		WaitForSingleObject(hThread, INFINITE);
 		CloseHandle(hThread);
 	}
+	
+	return true;
 }
 
 int main()
